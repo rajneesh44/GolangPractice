@@ -58,3 +58,9 @@ func (pointerToPerson *person) updateName (newFirstName string){
 	(*pointerToPerson).firstName=newFirstName
 	// fmt.Println(p) this prints the changed name
 }
+
+
+
+
+//slice whenever passed is passed as an address to the original data (pointer to data)
+// structs make a copy when passed, hence pass by value.
